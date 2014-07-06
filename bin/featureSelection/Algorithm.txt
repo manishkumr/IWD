@@ -1,0 +1,81 @@
+#########################################################################
+
+
+1. declare number of iteration n
+2. declare number of IWDs and subset size
+3. for each IWD declare soil[] and velocity []
+4. declare a pathsoil matrix (size =no of feature * no of feature)
+5. declare an array visited feature[no of features]
+6. Declare a IWD[n_IWD][subset_size] for holding value of each iteration 
+
+
+
+
+
+
+for n iteration{
+	set each IWD at random features
+	update visited table  
+	
+	for n IWD{
+	
+	select next feature based on probablity of distribution
+	
+	
+	call a classifier function
+	use CVA as a cost function
+	set IWD[][] corresponding entry for the IWD
+	
+	do a iWD soil local update 
+	do a iWD velocity update 
+	do a path soil update 	
+	sort IWD matrix and obtain best feature for current iteration
+	
+	if(current best>global best){set current best as global best}
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	}
+
+#####################################
+
+for (int v = 0; v < iwd.visitedPathList.size(); v++) {
+				
+				int visited=iwd.visitedPathList.get(v);
+				
+				if(min>=0&&visited==i){
+					System.out.println(">>>>>>"+visited);
+				
+					probArray.add(i, 0.0);
+				
+				}
+				else if (min>=0&&visited!=i) {
+					gSoil=calculateSoil_iK(currentPos, i);
+					//System.out.println("gsoil="+gSoil);
+					//calculate fsoil
+					double fSoili_j=1/(0.5+gSoil);
+					//System.out.println("fsoili_j"+fSoili_j);
+					double probi_j=fSoili_j/summationSoil;
+					probArray.add(i, probi_j);
+				}
+				
+			
+			}
+
+
+
+
+
+
+
+
+
+
+
+}

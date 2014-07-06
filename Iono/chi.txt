@@ -1,0 +1,92 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ChiSquaredAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     data
+Instances:    351
+Attributes:   35
+              V2
+              V3
+              V4
+              V5
+              V6
+              V7
+              V8
+              V9
+              V10
+              V11
+              V12
+              V13
+              V14
+              V15
+              V16
+              V17
+              V18
+              V19
+              V20
+              V21
+              V22
+              V23
+              V24
+              V25
+              V26
+              V27
+              V28
+              V29
+              V30
+              V31
+              V32
+              V33
+              V34
+              V35
+              class
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 35 class):
+	Chi-squared Ranking Filter
+
+Ranked attributes:
+194.7609    6 V7
+186.5519    5 V6
+170.242    34 V35
+169.6782   33 V34
+169.2576   29 V30
+165.6461   21 V22
+164.3698    8 V9
+158.6594   22 V23
+158.6122    7 V8
+158.3946   13 V14
+156.2789    3 V4
+154.5673   31 V32
+147.5559    4 V5
+145.6142   16 V17
+145.2044   27 V28
+144.2185   23 V24
+140.9854   15 V16
+136.4736   12 V13
+134.624    25 V26
+132.4951   17 V18
+126.1297   28 V29
+122.6529    9 V10
+121.8628   11 V12
+118.3943   19 V20
+ 98.3948   14 V15
+ 88.3312   24 V25
+ 86.7831   20 V21
+ 85.0617   18 V19
+ 83.9991   10 V11
+ 79.7731   32 V33
+ 77.9435   26 V27
+ 76.0954    1 V2
+ 55.14     30 V31
+  0         2 V3
+
+Selected attributes: 6,5,34,33,29,21,8,22,7,13,3,31,4,16,27,23,15,12,25,17,28,9,11,19,14,24,20,18,10,32,26,1,30,2 : 34
+

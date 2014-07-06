@@ -1,0 +1,83 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval 
+Search:       weka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1
+Relation:     colon
+Instances:    62
+Attributes:   2001
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Greedy Stepwise (forwards).
+	Start set: no attributes
+	Merit of best subset found:    0.823
+
+Attribute Subset Evaluator (supervised, Class (nominal): 2001 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 99,186,221,279,286,359,377,419,453,639,679,698,732,739,765,766,792,802,897,979,1004,1014,1047,1058,1110,1153,1200,1231,1256,1294,1325,1334,1346,1353,1451,1546,1549,1573,1583,1597,1634,1635,1649,1668,1671,1680,1694,1759,1771,1772,1799,1836,1843,1870,1911,1917,1935,1939 : 58
+                     f99
+                     f186
+                     f221
+                     f279
+                     f286
+                     f359
+                     f377
+                     f419
+                     f453
+                     f639
+                     f679
+                     f698
+                     f732
+                     f739
+                     f765
+                     f766
+                     f792
+                     f802
+                     f897
+                     f979
+                     f1004
+                     f1014
+                     f1047
+                     f1058
+                     f1110
+                     f1153
+                     f1200
+                     f1231
+                     f1256
+                     f1294
+                     f1325
+                     f1334
+                     f1346
+                     f1353
+                     f1451
+                     f1546
+                     f1549
+                     f1573
+                     f1583
+                     f1597
+                     f1634
+                     f1635
+                     f1649
+                     f1668
+                     f1671
+                     f1680
+                     f1694
+                     f1759
+                     f1771
+                     f1772
+                     f1799
+                     f1836
+                     f1843
+                     f1870
+                     f1911
+                     f1917
+                     f1935
+                     f1939
+

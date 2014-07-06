@@ -1,0 +1,80 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval 
+Search:weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     leukemia
+Instances:    44
+Attributes:   7130
+[list of attributes omitted]
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 248924
+	Merit of best subset found:    0.912
+
+Attribute Subset Evaluator (supervised, Class (nominal): 7130 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 218,251,370,423,510,602,709,1025,1095,1315,1723,1734,1982,2006,2159,2163,2401,2629,2728,2779,2839,3189,3406,3421,3921,4095,4169,4234,4473,4506,4872,4987,5144,5188,5293,5321,5419,5477,5524,5642,5741,5779,5884,5926,6262,6264,6419,6482,6484,6904,6924,6951 : 52
+                     f218
+                     f251
+                     f370
+                     f423
+                     f510
+                     f602
+                     f709
+                     f1025
+                     f1095
+                     f1315
+                     f1723
+                     f1734
+                     f1982
+                     f2006
+                     f2159
+                     f2163
+                     f2401
+                     f2629
+                     f2728
+                     f2779
+                     f2839
+                     f3189
+                     f3406
+                     f3421
+                     f3921
+                     f4095
+                     f4169
+                     f4234
+                     f4473
+                     f4506
+                     f4872
+                     f4987
+                     f5144
+                     f5188
+                     f5293
+                     f5321
+                     f5419
+                     f5477
+                     f5524
+                     f5642
+                     f5741
+                     f5779
+                     f5884
+                     f5926
+                     f6262
+                     f6264
+                     f6419
+                     f6482
+                     f6484
+                     f6904
+                     f6924
+                     f6951
+

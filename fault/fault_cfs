@@ -1,0 +1,77 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval 
+Search:weka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1
+Relation:     nfault
+Instances:    602
+Attributes:   52
+              V2
+              V3
+              V4
+              V5
+              V6
+              V7
+              V8
+              V9
+              V10
+              V11
+              V12
+              V13
+              V14
+              V15
+              V16
+              V17
+              V18
+              V19
+              V20
+              V21
+              V22
+              V23
+              V24
+              V25
+              V26
+              V27
+              V28
+              V29
+              V30
+              V31
+              V32
+              V33
+              V34
+              V35
+              V36
+              V37
+              V38
+              V39
+              V40
+              V41
+              V42
+              V43
+              V44
+              V45
+              V46
+              V47
+              V48
+              V49
+              V50
+              V51
+              V52
+              class
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Greedy Stepwise (forwards).
+	Start set: no attributes
+	Merit of best subset found:    0.179
+
+Attribute Subset Evaluator (supervised, Class (nominal): 52 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 21 : 1
+                     V22
+

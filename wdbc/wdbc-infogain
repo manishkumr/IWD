@@ -1,0 +1,84 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     wdbc_new
+Instances:    569
+Attributes:   31
+              V2
+              V3
+              V4
+              V5
+              V6
+              V7
+              V8
+              V9
+              V10
+              V11
+              V12
+              V13
+              V14
+              V15
+              V16
+              V17
+              V18
+              V19
+              V20
+              V21
+              V22
+              V23
+              V24
+              V25
+              V26
+              V27
+              V28
+              V29
+              V30
+              V31
+              class
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 31 class):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.685    23 V24
+ 0.6686   24 V25
+ 0.6665   21 V22
+ 0.6478   28 V29
+ 0.6347    8 V9
+ 0.5623    3 V4
+ 0.5479    4 V5
+ 0.541     1 V2
+ 0.5171    7 V8
+ 0.517    14 V15
+ 0.4735   27 V28
+ 0.3679   11 V12
+ 0.3663   13 V14
+ 0.3204   26 V27
+ 0.304     6 V7
+ 0.2225   17 V18
+ 0.197    18 V19
+ 0.1881   22 V23
+ 0.1593    2 V3
+ 0.1492   29 V30
+ 0.1303   16 V17
+ 0.1235   25 V26
+ 0.0988    9 V10
+ 0.0971    5 V6
+ 0.0747   30 V31
+ 0.0346   20 V21
+ 0.0228   19 V20
+ 0        15 V16
+ 0        10 V11
+ 0        12 V13
+
+Selected attributes: 23,24,21,28,8,3,4,1,7,14,27,11,13,26,6,17,18,22,2,29,16,25,9,5,30,20,19,15,10,12 : 30
+
